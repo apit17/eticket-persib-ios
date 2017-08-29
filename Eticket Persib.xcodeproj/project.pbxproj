@@ -1,0 +1,805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		481431751F19E39F00EEE336 /* ClassementAndTopScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481431741F19E39F00EEE336 /* ClassementAndTopScoreViewController.swift */; };
+		481431791F19E3AB00EEE336 /* ClassementAndTopScoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481431781F19E3AB00EEE336 /* ClassementAndTopScoreTableViewCell.swift */; };
+		4814317D1F19E4EF00EEE336 /* Classement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4814317C1F19E4EF00EEE336 /* Classement.swift */; };
+		4834F1D81F39B3ED006E719C /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4834F1D71F39B3ED006E719C /* CAPSPageMenu.swift */; };
+		4834F1DA1F39B446006E719C /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4834F1D91F39B446006E719C /* Home.storyboard */; };
+		4834F1DC1F39B5EB006E719C /* EticketHomeContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4834F1DB1F39B5EB006E719C /* EticketHomeContainerViewController.swift */; };
+		4834F1DE1F39B8D6006E719C /* EticketHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4834F1DD1F39B8D6006E719C /* EticketHomeViewController.swift */; };
+		4834F1E01F39D794006E719C /* EticketNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4834F1DF1F39D794006E719C /* EticketNavigationViewController.swift */; };
+		485B6AF31EE68EB20080B9FA /* EPListNewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485B6AF21EE68EB20080B9FA /* EPListNewsTableViewCell.swift */; };
+		485B6AF51EE68EE10080B9FA /* EPListNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485B6AF41EE68EE10080B9FA /* EPListNewsViewController.swift */; };
+		486625551F18F882003DFA28 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486625541F18F882003DFA28 /* History.swift */; };
+		486629FA1EE8625D004CE257 /* EPSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486629F91EE8625D004CE257 /* EPSignUpViewController.swift */; };
+		486629FE1EE8807E004CE257 /* EPScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486629FD1EE8807E004CE257 /* EPScheduleViewController.swift */; };
+		48662A001EE88099004CE257 /* EPScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486629FF1EE88099004CE257 /* EPScheduleTableViewCell.swift */; };
+		48662A031EE8918B004CE257 /* Logo_Persib.png in Resources */ = {isa = PBXBuildFile; fileRef = 48662A011EE8918B004CE257 /* Logo_Persib.png */; };
+		48662A041EE8918B004CE257 /* Persiba.png in Resources */ = {isa = PBXBuildFile; fileRef = 48662A021EE8918B004CE257 /* Persiba.png */; };
+		48662A061EE893C4004CE257 /* EPTicketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48662A051EE893C4004CE257 /* EPTicketTableViewCell.swift */; };
+		48662A081EE893DB004CE257 /* EPDetailScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48662A071EE893DB004CE257 /* EPDetailScheduleViewController.swift */; };
+		48662A0A1EE8B40D004CE257 /* harimau.png in Resources */ = {isa = PBXBuildFile; fileRef = 48662A091EE8B40D004CE257 /* harimau.png */; };
+		48662A0C1EE8B502004CE257 /* viking.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48662A0B1EE8B502004CE257 /* viking.jpg */; };
+		48662A0E1EE8B54F004CE257 /* viking_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 48662A0D1EE8B54F004CE257 /* viking_1.png */; };
+		48662A121EE8BED3004CE257 /* BookingTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48662A111EE8BED3004CE257 /* BookingTicketViewController.swift */; };
+		487108821F4217540068C7CF /* PopupDetailHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487108811F4217540068C7CF /* PopupDetailHistoryViewController.swift */; };
+		487108881F43136B0068C7CF /* InfoStadionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487108871F43136B0068C7CF /* InfoStadionViewController.swift */; };
+		487489261F153362005688F1 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487489251F153362005688F1 /* Ticket.swift */; };
+		489AEE911F3C598800E4B4DF /* MFSideMenuContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489AEE8C1F3C598800E4B4DF /* MFSideMenuContainerViewController.m */; };
+		489AEE921F3C598800E4B4DF /* MFSideMenuShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 489AEE8E1F3C598800E4B4DF /* MFSideMenuShadow.m */; };
+		489AEE931F3C598800E4B4DF /* UIViewController+MFSideMenuAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 489AEE901F3C598800E4B4DF /* UIViewController+MFSideMenuAdditions.m */; };
+		489AEE961F3C710000E4B4DF /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489AEE951F3C710000E4B4DF /* SideMenuViewController.swift */; };
+		489AEE981F3C8C9300E4B4DF /* EticketFirstNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489AEE971F3C8C9300E4B4DF /* EticketFirstNavigationViewController.swift */; };
+		489AEE9A1F3C8CAE00E4B4DF /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489AEE991F3C8CAE00E4B4DF /* ContainerViewController.swift */; };
+		489AEE9D1F3C991E00E4B4DF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489AEE9B1F3C991E00E4B4DF /* BaseViewController.swift */; };
+		489AEE9E1F3C991E00E4B4DF /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489AEE9C1F3C991E00E4B4DF /* MenuViewController.swift */; };
+		489F106C1F45D092003E9AAB /* InfoPersibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489F106B1F45D092003E9AAB /* InfoPersibViewController.swift */; };
+		48BF8BD01EE19BD90021B8F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BF8BCF1EE19BD90021B8F6 /* AppDelegate.swift */; };
+		48BF8BD21EE19BD90021B8F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BF8BD11EE19BD90021B8F6 /* ViewController.swift */; };
+		48BF8BD51EE19BD90021B8F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48BF8BD31EE19BD90021B8F6 /* Main.storyboard */; };
+		48BF8BD81EE19BD90021B8F6 /* Eticket_Persib.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48BF8BD61EE19BD90021B8F6 /* Eticket_Persib.xcdatamodeld */; };
+		48BF8BDA1EE19BD90021B8F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48BF8BD91EE19BD90021B8F6 /* Assets.xcassets */; };
+		48BF8BDD1EE19BD90021B8F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48BF8BDB1EE19BD90021B8F6 /* LaunchScreen.storyboard */; };
+		48BF8BE51EE2141E0021B8F6 /* EPTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BF8BE41EE2141E0021B8F6 /* EPTabBarController.swift */; };
+		48BF8C021EE214A00021B8F6 /* Chameleon_.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BF8BE91EE214A00021B8F6 /* Chameleon_.m */; };
+		48BF8C031EE214A00021B8F6 /* ChameleonConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BF8BEB1EE214A00021B8F6 /* ChameleonConstants.m */; };
+		48BF8C041EE214A00021B8F6 /* NSArray+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BF8BEF1EE214A00021B8F6 /* NSArray+Chameleon.m */; };
+		48BF8C051EE214A00021B8F6 /* UIAppearance+Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BF8BF11EE214A00021B8F6 /* UIAppearance+Swift.m */; };
+		48BF8C061EE214A00021B8F6 /* UIButton+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BF8BF31EE214A00021B8F6 /* UIButton+Chameleon.m */; };
+		48BF8C071EE214A00021B8F6 /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BF8BF51EE214A00021B8F6 /* UIColor+Chameleon.m */; };
+		48BF8C081EE214A00021B8F6 /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BF8BF71EE214A00021B8F6 /* UIColor+ChameleonPrivate.m */; };
+		48BF8C091EE214A00021B8F6 /* UIImage+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BF8BF91EE214A00021B8F6 /* UIImage+ChameleonPrivate.m */; };
+		48BF8C0A1EE214A00021B8F6 /* UILabel+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BF8BFB1EE214A00021B8F6 /* UILabel+Chameleon.m */; };
+		48BF8C0B1EE214A00021B8F6 /* UINavigationController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BF8BFD1EE214A00021B8F6 /* UINavigationController+Chameleon.m */; };
+		48BF8C0C1EE214A00021B8F6 /* UIView+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BF8BFF1EE214A00021B8F6 /* UIView+ChameleonPrivate.m */; };
+		48BF8C0D1EE214A00021B8F6 /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BF8C011EE214A00021B8F6 /* UIViewController+Chameleon.m */; };
+		48CB4A4B1F1740AC00D66EAA /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4A4A1F1740AC00D66EAA /* UserData.swift */; };
+		48D73E6E1EEC4426005F9B3E /* EPHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D73E6D1EEC4426005F9B3E /* EPHistoryViewController.swift */; };
+		48D73E701EEC443F005F9B3E /* EPHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D73E6F1EEC443F005F9B3E /* EPHistoryTableViewCell.swift */; };
+		48E97F571F14ACF40043C87D /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E97F501F14ACF40043C87D /* TPKeyboardAvoidingCollectionView.m */; };
+		48E97F581F14ACF40043C87D /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E97F521F14ACF40043C87D /* TPKeyboardAvoidingScrollView.m */; };
+		48E97F591F14ACF40043C87D /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E97F541F14ACF40043C87D /* TPKeyboardAvoidingTableView.m */; };
+		48E97F5A1F14ACF40043C87D /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E97F561F14ACF40043C87D /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		48E97F5C1F14B5290043C87D /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E97F5B1F14B5290043C87D /* Schedule.swift */; };
+		48EAF1711F138D21004BB130 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EAF1701F138D21004BB130 /* WebService.swift */; };
+		48EAF1731F138DD8004BB130 /* EticketError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EAF1721F138DD8004BB130 /* EticketError.swift */; };
+		4F1C0A008F276543BA0021AE /* Pods_Eticket_Persib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC23781A59C5D24E9DC7F6B /* Pods_Eticket_Persib.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		481431741F19E39F00EEE336 /* ClassementAndTopScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassementAndTopScoreViewController.swift; sourceTree = "<group>"; };
+		481431781F19E3AB00EEE336 /* ClassementAndTopScoreTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassementAndTopScoreTableViewCell.swift; sourceTree = "<group>"; };
+		4814317C1F19E4EF00EEE336 /* Classement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classement.swift; sourceTree = "<group>"; };
+		4834F1D71F39B3ED006E719C /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenu.swift; sourceTree = "<group>"; };
+		4834F1D91F39B446006E719C /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		4834F1DB1F39B5EB006E719C /* EticketHomeContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EticketHomeContainerViewController.swift; sourceTree = "<group>"; };
+		4834F1DD1F39B8D6006E719C /* EticketHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EticketHomeViewController.swift; sourceTree = "<group>"; };
+		4834F1DF1F39D794006E719C /* EticketNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EticketNavigationViewController.swift; sourceTree = "<group>"; };
+		485B6AD71EE685AF0080B9FA /* Chameleon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chameleon.h; sourceTree = "<group>"; };
+		485B6AD81EE685AF0080B9FA /* Chameleon_.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chameleon_.h; sourceTree = "<group>"; };
+		485B6AD91EE685AF0080B9FA /* Chameleon_.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chameleon_.m; sourceTree = "<group>"; };
+		485B6ADA1EE685AF0080B9FA /* ChameleonConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChameleonConstants.h; sourceTree = "<group>"; };
+		485B6ADB1EE685AF0080B9FA /* ChameleonConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChameleonConstants.m; sourceTree = "<group>"; };
+		485B6ADC1EE685AF0080B9FA /* ChameleonEnums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChameleonEnums.h; sourceTree = "<group>"; };
+		485B6ADD1EE685AF0080B9FA /* ChameleonMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChameleonMacros.h; sourceTree = "<group>"; };
+		485B6ADE1EE685AF0080B9FA /* NSArray+Chameleon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Chameleon.h"; sourceTree = "<group>"; };
+		485B6ADF1EE685AF0080B9FA /* NSArray+Chameleon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Chameleon.m"; sourceTree = "<group>"; };
+		485B6AE01EE685AF0080B9FA /* UIAppearance+Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAppearance+Swift.h"; sourceTree = "<group>"; };
+		485B6AE11EE685AF0080B9FA /* UIAppearance+Swift.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAppearance+Swift.m"; sourceTree = "<group>"; };
+		485B6AE21EE685AF0080B9FA /* UIButton+Chameleon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Chameleon.h"; sourceTree = "<group>"; };
+		485B6AE31EE685AF0080B9FA /* UIButton+Chameleon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Chameleon.m"; sourceTree = "<group>"; };
+		485B6AE41EE685AF0080B9FA /* UIColor+Chameleon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Chameleon.h"; sourceTree = "<group>"; };
+		485B6AE51EE685AF0080B9FA /* UIColor+Chameleon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Chameleon.m"; sourceTree = "<group>"; };
+		485B6AE61EE685AF0080B9FA /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		485B6AE71EE685AF0080B9FA /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		485B6AE81EE685AF0080B9FA /* UIImage+ChameleonPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		485B6AE91EE685AF0080B9FA /* UIImage+ChameleonPrivate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		485B6AEA1EE685AF0080B9FA /* UILabel+Chameleon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+Chameleon.h"; sourceTree = "<group>"; };
+		485B6AEB1EE685AF0080B9FA /* UILabel+Chameleon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Chameleon.m"; sourceTree = "<group>"; };
+		485B6AEC1EE685AF0080B9FA /* UINavigationController+Chameleon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Chameleon.h"; sourceTree = "<group>"; };
+		485B6AED1EE685AF0080B9FA /* UINavigationController+Chameleon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Chameleon.m"; sourceTree = "<group>"; };
+		485B6AEE1EE685AF0080B9FA /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		485B6AEF1EE685AF0080B9FA /* UIView+ChameleonPrivate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		485B6AF01EE685AF0080B9FA /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Chameleon.h"; sourceTree = "<group>"; };
+		485B6AF11EE685AF0080B9FA /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Chameleon.m"; sourceTree = "<group>"; };
+		485B6AF21EE68EB20080B9FA /* EPListNewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPListNewsTableViewCell.swift; sourceTree = "<group>"; };
+		485B6AF41EE68EE10080B9FA /* EPListNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPListNewsViewController.swift; sourceTree = "<group>"; };
+		486625541F18F882003DFA28 /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		486629F91EE8625D004CE257 /* EPSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPSignUpViewController.swift; sourceTree = "<group>"; };
+		486629FD1EE8807E004CE257 /* EPScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPScheduleViewController.swift; sourceTree = "<group>"; };
+		486629FF1EE88099004CE257 /* EPScheduleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPScheduleTableViewCell.swift; sourceTree = "<group>"; };
+		48662A011EE8918B004CE257 /* Logo_Persib.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo_Persib.png; sourceTree = "<group>"; };
+		48662A021EE8918B004CE257 /* Persiba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Persiba.png; sourceTree = "<group>"; };
+		48662A051EE893C4004CE257 /* EPTicketTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPTicketTableViewCell.swift; sourceTree = "<group>"; };
+		48662A071EE893DB004CE257 /* EPDetailScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPDetailScheduleViewController.swift; sourceTree = "<group>"; };
+		48662A091EE8B40D004CE257 /* harimau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = harimau.png; sourceTree = "<group>"; };
+		48662A0B1EE8B502004CE257 /* viking.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = viking.jpg; sourceTree = "<group>"; };
+		48662A0D1EE8B54F004CE257 /* viking_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = viking_1.png; sourceTree = "<group>"; };
+		48662A0F1EE8BD5B004CE257 /* STPopup.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = STPopup.framework; path = "Pods/../build/Debug-iphoneos/STPopup/STPopup.framework"; sourceTree = "<group>"; };
+		48662A111EE8BED3004CE257 /* BookingTicketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingTicketViewController.swift; sourceTree = "<group>"; };
+		487108811F4217540068C7CF /* PopupDetailHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupDetailHistoryViewController.swift; sourceTree = "<group>"; };
+		487108871F43136B0068C7CF /* InfoStadionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoStadionViewController.swift; sourceTree = "<group>"; };
+		487489251F153362005688F1 /* Ticket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		489AEE8A1F3C598800E4B4DF /* MFSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenu.h; sourceTree = "<group>"; };
+		489AEE8B1F3C598800E4B4DF /* MFSideMenuContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenuContainerViewController.h; sourceTree = "<group>"; };
+		489AEE8C1F3C598800E4B4DF /* MFSideMenuContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSideMenuContainerViewController.m; sourceTree = "<group>"; };
+		489AEE8D1F3C598800E4B4DF /* MFSideMenuShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenuShadow.h; sourceTree = "<group>"; };
+		489AEE8E1F3C598800E4B4DF /* MFSideMenuShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSideMenuShadow.m; sourceTree = "<group>"; };
+		489AEE8F1F3C598800E4B4DF /* UIViewController+MFSideMenuAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MFSideMenuAdditions.h"; sourceTree = "<group>"; };
+		489AEE901F3C598800E4B4DF /* UIViewController+MFSideMenuAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MFSideMenuAdditions.m"; sourceTree = "<group>"; };
+		489AEE941F3C5A9B00E4B4DF /* Eticket Persib-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Eticket Persib-Bridging-Header.h"; sourceTree = "<group>"; };
+		489AEE951F3C710000E4B4DF /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		489AEE971F3C8C9300E4B4DF /* EticketFirstNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EticketFirstNavigationViewController.swift; sourceTree = "<group>"; };
+		489AEE991F3C8CAE00E4B4DF /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		489AEE9B1F3C991E00E4B4DF /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		489AEE9C1F3C991E00E4B4DF /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		489F106B1F45D092003E9AAB /* InfoPersibViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoPersibViewController.swift; sourceTree = "<group>"; };
+		48BF8BCC1EE19BD90021B8F6 /* Eticket Persib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eticket Persib.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48BF8BCF1EE19BD90021B8F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48BF8BD11EE19BD90021B8F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48BF8BD41EE19BD90021B8F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48BF8BD71EE19BD90021B8F6 /* Eticket_Persib.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Eticket_Persib.xcdatamodel; sourceTree = "<group>"; };
+		48BF8BD91EE19BD90021B8F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48BF8BDC1EE19BD90021B8F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48BF8BDE1EE19BD90021B8F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48BF8BE41EE2141E0021B8F6 /* EPTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPTabBarController.swift; sourceTree = "<group>"; };
+		48BF8BE71EE214A00021B8F6 /* Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chameleon.h; sourceTree = "<group>"; };
+		48BF8BE81EE214A00021B8F6 /* Chameleon_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chameleon_.h; sourceTree = "<group>"; };
+		48BF8BE91EE214A00021B8F6 /* Chameleon_.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chameleon_.m; sourceTree = "<group>"; };
+		48BF8BEA1EE214A00021B8F6 /* ChameleonConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChameleonConstants.h; sourceTree = "<group>"; };
+		48BF8BEB1EE214A00021B8F6 /* ChameleonConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChameleonConstants.m; sourceTree = "<group>"; };
+		48BF8BEC1EE214A00021B8F6 /* ChameleonEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChameleonEnums.h; sourceTree = "<group>"; };
+		48BF8BED1EE214A00021B8F6 /* ChameleonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChameleonMacros.h; sourceTree = "<group>"; };
+		48BF8BEE1EE214A00021B8F6 /* NSArray+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Chameleon.h"; sourceTree = "<group>"; };
+		48BF8BEF1EE214A00021B8F6 /* NSArray+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Chameleon.m"; sourceTree = "<group>"; };
+		48BF8BF01EE214A00021B8F6 /* UIAppearance+Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAppearance+Swift.h"; sourceTree = "<group>"; };
+		48BF8BF11EE214A00021B8F6 /* UIAppearance+Swift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAppearance+Swift.m"; sourceTree = "<group>"; };
+		48BF8BF21EE214A00021B8F6 /* UIButton+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Chameleon.h"; sourceTree = "<group>"; };
+		48BF8BF31EE214A00021B8F6 /* UIButton+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Chameleon.m"; sourceTree = "<group>"; };
+		48BF8BF41EE214A00021B8F6 /* UIColor+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Chameleon.h"; sourceTree = "<group>"; };
+		48BF8BF51EE214A00021B8F6 /* UIColor+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Chameleon.m"; sourceTree = "<group>"; };
+		48BF8BF61EE214A00021B8F6 /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		48BF8BF71EE214A00021B8F6 /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		48BF8BF81EE214A00021B8F6 /* UIImage+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		48BF8BF91EE214A00021B8F6 /* UIImage+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		48BF8BFA1EE214A00021B8F6 /* UILabel+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Chameleon.h"; sourceTree = "<group>"; };
+		48BF8BFB1EE214A00021B8F6 /* UILabel+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Chameleon.m"; sourceTree = "<group>"; };
+		48BF8BFC1EE214A00021B8F6 /* UINavigationController+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Chameleon.h"; sourceTree = "<group>"; };
+		48BF8BFD1EE214A00021B8F6 /* UINavigationController+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Chameleon.m"; sourceTree = "<group>"; };
+		48BF8BFE1EE214A00021B8F6 /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		48BF8BFF1EE214A00021B8F6 /* UIView+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		48BF8C001EE214A00021B8F6 /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Chameleon.h"; sourceTree = "<group>"; };
+		48BF8C011EE214A00021B8F6 /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Chameleon.m"; sourceTree = "<group>"; };
+		48CB4A4A1F1740AC00D66EAA /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		48D73E6D1EEC4426005F9B3E /* EPHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPHistoryViewController.swift; sourceTree = "<group>"; };
+		48D73E6F1EEC443F005F9B3E /* EPHistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		48E97F4F1F14ACF40043C87D /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		48E97F501F14ACF40043C87D /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		48E97F511F14ACF40043C87D /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		48E97F521F14ACF40043C87D /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		48E97F531F14ACF40043C87D /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		48E97F541F14ACF40043C87D /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		48E97F551F14ACF40043C87D /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		48E97F561F14ACF40043C87D /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		48E97F5B1F14B5290043C87D /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		48EAF1701F138D21004BB130 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		48EAF1721F138DD8004BB130 /* EticketError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EticketError.swift; sourceTree = "<group>"; };
+		963533FDA55F24CF20A7585B /* Pods-Eticket Persib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eticket Persib.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eticket Persib/Pods-Eticket Persib.release.xcconfig"; sourceTree = "<group>"; };
+		D6048EC150023CDF0E66CE11 /* Pods-Eticket Persib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eticket Persib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eticket Persib/Pods-Eticket Persib.debug.xcconfig"; sourceTree = "<group>"; };
+		DCC23781A59C5D24E9DC7F6B /* Pods_Eticket_Persib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eticket_Persib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48BF8BC91EE19BD90021B8F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1C0A008F276543BA0021AE /* Pods_Eticket_Persib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4834F1D41F39B36A006E719C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48EAF1701F138D21004BB130 /* WebService.swift */,
+				48EAF1721F138DD8004BB130 /* EticketError.swift */,
+				48E97F5B1F14B5290043C87D /* Schedule.swift */,
+				487489251F153362005688F1 /* Ticket.swift */,
+				48CB4A4A1F1740AC00D66EAA /* UserData.swift */,
+				486625541F18F882003DFA28 /* History.swift */,
+				4814317C1F19E4EF00EEE336 /* Classement.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4834F1D51F39B384006E719C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				481431741F19E39F00EEE336 /* ClassementAndTopScoreViewController.swift */,
+				48BF8BE41EE2141E0021B8F6 /* EPTabBarController.swift */,
+				485B6AF41EE68EE10080B9FA /* EPListNewsViewController.swift */,
+				486629F91EE8625D004CE257 /* EPSignUpViewController.swift */,
+				486629FD1EE8807E004CE257 /* EPScheduleViewController.swift */,
+				48662A071EE893DB004CE257 /* EPDetailScheduleViewController.swift */,
+				48662A111EE8BED3004CE257 /* BookingTicketViewController.swift */,
+				48D73E6D1EEC4426005F9B3E /* EPHistoryViewController.swift */,
+				4834F1DB1F39B5EB006E719C /* EticketHomeContainerViewController.swift */,
+				4834F1DD1F39B8D6006E719C /* EticketHomeViewController.swift */,
+				4834F1DF1F39D794006E719C /* EticketNavigationViewController.swift */,
+				487108811F4217540068C7CF /* PopupDetailHistoryViewController.swift */,
+				487108871F43136B0068C7CF /* InfoStadionViewController.swift */,
+				489F106B1F45D092003E9AAB /* InfoPersibViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4834F1D61F39B394006E719C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				481431781F19E3AB00EEE336 /* ClassementAndTopScoreTableViewCell.swift */,
+				485B6AF21EE68EB20080B9FA /* EPListNewsTableViewCell.swift */,
+				486629FF1EE88099004CE257 /* EPScheduleTableViewCell.swift */,
+				48662A051EE893C4004CE257 /* EPTicketTableViewCell.swift */,
+				48D73E6F1EEC443F005F9B3E /* EPHistoryTableViewCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		485B6AD51EE685AF0080B9FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48662A0F1EE8BD5B004CE257 /* STPopup.framework */,
+				485B6AD61EE685AF0080B9FA /* Chameleon */,
+				DCC23781A59C5D24E9DC7F6B /* Pods_Eticket_Persib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		485B6AD61EE685AF0080B9FA /* Chameleon */ = {
+			isa = PBXGroup;
+			children = (
+				485B6AD71EE685AF0080B9FA /* Chameleon.h */,
+				485B6AD81EE685AF0080B9FA /* Chameleon_.h */,
+				485B6AD91EE685AF0080B9FA /* Chameleon_.m */,
+				485B6ADA1EE685AF0080B9FA /* ChameleonConstants.h */,
+				485B6ADB1EE685AF0080B9FA /* ChameleonConstants.m */,
+				485B6ADC1EE685AF0080B9FA /* ChameleonEnums.h */,
+				485B6ADD1EE685AF0080B9FA /* ChameleonMacros.h */,
+				485B6ADE1EE685AF0080B9FA /* NSArray+Chameleon.h */,
+				485B6ADF1EE685AF0080B9FA /* NSArray+Chameleon.m */,
+				485B6AE01EE685AF0080B9FA /* UIAppearance+Swift.h */,
+				485B6AE11EE685AF0080B9FA /* UIAppearance+Swift.m */,
+				485B6AE21EE685AF0080B9FA /* UIButton+Chameleon.h */,
+				485B6AE31EE685AF0080B9FA /* UIButton+Chameleon.m */,
+				485B6AE41EE685AF0080B9FA /* UIColor+Chameleon.h */,
+				485B6AE51EE685AF0080B9FA /* UIColor+Chameleon.m */,
+				485B6AE61EE685AF0080B9FA /* UIColor+ChameleonPrivate.h */,
+				485B6AE71EE685AF0080B9FA /* UIColor+ChameleonPrivate.m */,
+				485B6AE81EE685AF0080B9FA /* UIImage+ChameleonPrivate.h */,
+				485B6AE91EE685AF0080B9FA /* UIImage+ChameleonPrivate.m */,
+				485B6AEA1EE685AF0080B9FA /* UILabel+Chameleon.h */,
+				485B6AEB1EE685AF0080B9FA /* UILabel+Chameleon.m */,
+				485B6AEC1EE685AF0080B9FA /* UINavigationController+Chameleon.h */,
+				485B6AED1EE685AF0080B9FA /* UINavigationController+Chameleon.m */,
+				485B6AEE1EE685AF0080B9FA /* UIView+ChameleonPrivate.h */,
+				485B6AEF1EE685AF0080B9FA /* UIView+ChameleonPrivate.m */,
+				485B6AF01EE685AF0080B9FA /* UIViewController+Chameleon.h */,
+				485B6AF11EE685AF0080B9FA /* UIViewController+Chameleon.m */,
+			);
+			path = Chameleon;
+			sourceTree = "<group>";
+		};
+		489AEE891F3C598800E4B4DF /* MFSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				489AEE8A1F3C598800E4B4DF /* MFSideMenu.h */,
+				489AEE8B1F3C598800E4B4DF /* MFSideMenuContainerViewController.h */,
+				489AEE8C1F3C598800E4B4DF /* MFSideMenuContainerViewController.m */,
+				489AEE8D1F3C598800E4B4DF /* MFSideMenuShadow.h */,
+				489AEE8E1F3C598800E4B4DF /* MFSideMenuShadow.m */,
+				489AEE8F1F3C598800E4B4DF /* UIViewController+MFSideMenuAdditions.h */,
+				489AEE901F3C598800E4B4DF /* UIViewController+MFSideMenuAdditions.m */,
+			);
+			path = MFSideMenu;
+			sourceTree = "<group>";
+		};
+		48BF8BC31EE19BD90021B8F6 = {
+			isa = PBXGroup;
+			children = (
+				48BF8BCE1EE19BD90021B8F6 /* Eticket Persib */,
+				48BF8BCD1EE19BD90021B8F6 /* Products */,
+				485B6AD51EE685AF0080B9FA /* Frameworks */,
+				753E256D34C2C74C096FA21B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		48BF8BCD1EE19BD90021B8F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48BF8BCC1EE19BD90021B8F6 /* Eticket Persib.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48BF8BCE1EE19BD90021B8F6 /* Eticket Persib */ = {
+			isa = PBXGroup;
+			children = (
+				489AEE891F3C598800E4B4DF /* MFSideMenu */,
+				48E97F4E1F14ACF40043C87D /* TPKeyboardAvoiding */,
+				48BF8BE61EE214A00021B8F6 /* Chameleon */,
+				4834F1D71F39B3ED006E719C /* CAPSPageMenu.swift */,
+				489AEE9B1F3C991E00E4B4DF /* BaseViewController.swift */,
+				489AEE9C1F3C991E00E4B4DF /* MenuViewController.swift */,
+				48BF8BCF1EE19BD90021B8F6 /* AppDelegate.swift */,
+				48BF8BD11EE19BD90021B8F6 /* ViewController.swift */,
+				48BF8BD31EE19BD90021B8F6 /* Main.storyboard */,
+				48BF8BDB1EE19BD90021B8F6 /* LaunchScreen.storyboard */,
+				4834F1D91F39B446006E719C /* Home.storyboard */,
+				4834F1D51F39B384006E719C /* Controller */,
+				4834F1D61F39B394006E719C /* Cell */,
+				48BF8BD91EE19BD90021B8F6 /* Assets.xcassets */,
+				48662A011EE8918B004CE257 /* Logo_Persib.png */,
+				48662A0B1EE8B502004CE257 /* viking.jpg */,
+				48662A0D1EE8B54F004CE257 /* viking_1.png */,
+				48662A091EE8B40D004CE257 /* harimau.png */,
+				48662A021EE8918B004CE257 /* Persiba.png */,
+				48BF8BDE1EE19BD90021B8F6 /* Info.plist */,
+				48BF8BD61EE19BD90021B8F6 /* Eticket_Persib.xcdatamodeld */,
+				4834F1D41F39B36A006E719C /* Model */,
+				489AEE941F3C5A9B00E4B4DF /* Eticket Persib-Bridging-Header.h */,
+				489AEE951F3C710000E4B4DF /* SideMenuViewController.swift */,
+				489AEE971F3C8C9300E4B4DF /* EticketFirstNavigationViewController.swift */,
+				489AEE991F3C8CAE00E4B4DF /* ContainerViewController.swift */,
+			);
+			path = "Eticket Persib";
+			sourceTree = "<group>";
+		};
+		48BF8BE61EE214A00021B8F6 /* Chameleon */ = {
+			isa = PBXGroup;
+			children = (
+				48BF8BE71EE214A00021B8F6 /* Chameleon.h */,
+				48BF8BE81EE214A00021B8F6 /* Chameleon_.h */,
+				48BF8BE91EE214A00021B8F6 /* Chameleon_.m */,
+				48BF8BEA1EE214A00021B8F6 /* ChameleonConstants.h */,
+				48BF8BEB1EE214A00021B8F6 /* ChameleonConstants.m */,
+				48BF8BEC1EE214A00021B8F6 /* ChameleonEnums.h */,
+				48BF8BED1EE214A00021B8F6 /* ChameleonMacros.h */,
+				48BF8BEE1EE214A00021B8F6 /* NSArray+Chameleon.h */,
+				48BF8BEF1EE214A00021B8F6 /* NSArray+Chameleon.m */,
+				48BF8BF01EE214A00021B8F6 /* UIAppearance+Swift.h */,
+				48BF8BF11EE214A00021B8F6 /* UIAppearance+Swift.m */,
+				48BF8BF21EE214A00021B8F6 /* UIButton+Chameleon.h */,
+				48BF8BF31EE214A00021B8F6 /* UIButton+Chameleon.m */,
+				48BF8BF41EE214A00021B8F6 /* UIColor+Chameleon.h */,
+				48BF8BF51EE214A00021B8F6 /* UIColor+Chameleon.m */,
+				48BF8BF61EE214A00021B8F6 /* UIColor+ChameleonPrivate.h */,
+				48BF8BF71EE214A00021B8F6 /* UIColor+ChameleonPrivate.m */,
+				48BF8BF81EE214A00021B8F6 /* UIImage+ChameleonPrivate.h */,
+				48BF8BF91EE214A00021B8F6 /* UIImage+ChameleonPrivate.m */,
+				48BF8BFA1EE214A00021B8F6 /* UILabel+Chameleon.h */,
+				48BF8BFB1EE214A00021B8F6 /* UILabel+Chameleon.m */,
+				48BF8BFC1EE214A00021B8F6 /* UINavigationController+Chameleon.h */,
+				48BF8BFD1EE214A00021B8F6 /* UINavigationController+Chameleon.m */,
+				48BF8BFE1EE214A00021B8F6 /* UIView+ChameleonPrivate.h */,
+				48BF8BFF1EE214A00021B8F6 /* UIView+ChameleonPrivate.m */,
+				48BF8C001EE214A00021B8F6 /* UIViewController+Chameleon.h */,
+				48BF8C011EE214A00021B8F6 /* UIViewController+Chameleon.m */,
+			);
+			name = Chameleon;
+			path = ../Chameleon;
+			sourceTree = "<group>";
+		};
+		48E97F4E1F14ACF40043C87D /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				48E97F4F1F14ACF40043C87D /* TPKeyboardAvoidingCollectionView.h */,
+				48E97F501F14ACF40043C87D /* TPKeyboardAvoidingCollectionView.m */,
+				48E97F511F14ACF40043C87D /* TPKeyboardAvoidingScrollView.h */,
+				48E97F521F14ACF40043C87D /* TPKeyboardAvoidingScrollView.m */,
+				48E97F531F14ACF40043C87D /* TPKeyboardAvoidingTableView.h */,
+				48E97F541F14ACF40043C87D /* TPKeyboardAvoidingTableView.m */,
+				48E97F551F14ACF40043C87D /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				48E97F561F14ACF40043C87D /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		753E256D34C2C74C096FA21B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6048EC150023CDF0E66CE11 /* Pods-Eticket Persib.debug.xcconfig */,
+				963533FDA55F24CF20A7585B /* Pods-Eticket Persib.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48BF8BCB1EE19BD90021B8F6 /* Eticket Persib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48BF8BE11EE19BD90021B8F6 /* Build configuration list for PBXNativeTarget "Eticket Persib" */;
+			buildPhases = (
+				C2B976447E1D43E5EF731BF9 /* [CP] Check Pods Manifest.lock */,
+				48BF8BC81EE19BD90021B8F6 /* Sources */,
+				48BF8BC91EE19BD90021B8F6 /* Frameworks */,
+				48BF8BCA1EE19BD90021B8F6 /* Resources */,
+				7872F4A8D8A355962546372D /* [CP] Embed Pods Frameworks */,
+				B681B1245AD425D7A17F9BFC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eticket Persib";
+			productName = "Eticket Persib";
+			productReference = 48BF8BCC1EE19BD90021B8F6 /* Eticket Persib.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48BF8BC41EE19BD90021B8F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Apit;
+				TargetAttributes = {
+					48BF8BCB1EE19BD90021B8F6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = ZQEDLFR82W;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 48BF8BC71EE19BD90021B8F6 /* Build configuration list for PBXProject "Eticket Persib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48BF8BC31EE19BD90021B8F6;
+			productRefGroup = 48BF8BCD1EE19BD90021B8F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48BF8BCB1EE19BD90021B8F6 /* Eticket Persib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48BF8BCA1EE19BD90021B8F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BF8BDD1EE19BD90021B8F6 /* LaunchScreen.storyboard in Resources */,
+				4834F1DA1F39B446006E719C /* Home.storyboard in Resources */,
+				48662A0C1EE8B502004CE257 /* viking.jpg in Resources */,
+				48BF8BDA1EE19BD90021B8F6 /* Assets.xcassets in Resources */,
+				48662A041EE8918B004CE257 /* Persiba.png in Resources */,
+				48BF8BD51EE19BD90021B8F6 /* Main.storyboard in Resources */,
+				48662A031EE8918B004CE257 /* Logo_Persib.png in Resources */,
+				48662A0A1EE8B40D004CE257 /* harimau.png in Resources */,
+				48662A0E1EE8B54F004CE257 /* viking_1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7872F4A8D8A355962546372D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eticket Persib/Pods-Eticket Persib-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B681B1245AD425D7A17F9BFC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eticket Persib/Pods-Eticket Persib-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2B976447E1D43E5EF731BF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48BF8BC81EE19BD90021B8F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BF8C031EE214A00021B8F6 /* ChameleonConstants.m in Sources */,
+				48BF8C021EE214A00021B8F6 /* Chameleon_.m in Sources */,
+				489AEE961F3C710000E4B4DF /* SideMenuViewController.swift in Sources */,
+				48BF8C0C1EE214A00021B8F6 /* UIView+ChameleonPrivate.m in Sources */,
+				48BF8C081EE214A00021B8F6 /* UIColor+ChameleonPrivate.m in Sources */,
+				48EAF1731F138DD8004BB130 /* EticketError.swift in Sources */,
+				486629FA1EE8625D004CE257 /* EPSignUpViewController.swift in Sources */,
+				485B6AF51EE68EE10080B9FA /* EPListNewsViewController.swift in Sources */,
+				481431751F19E39F00EEE336 /* ClassementAndTopScoreViewController.swift in Sources */,
+				48E97F571F14ACF40043C87D /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				4814317D1F19E4EF00EEE336 /* Classement.swift in Sources */,
+				48BF8BE51EE2141E0021B8F6 /* EPTabBarController.swift in Sources */,
+				481431791F19E3AB00EEE336 /* ClassementAndTopScoreTableViewCell.swift in Sources */,
+				48BF8C0B1EE214A00021B8F6 /* UINavigationController+Chameleon.m in Sources */,
+				489AEE911F3C598800E4B4DF /* MFSideMenuContainerViewController.m in Sources */,
+				48662A121EE8BED3004CE257 /* BookingTicketViewController.swift in Sources */,
+				48662A061EE893C4004CE257 /* EPTicketTableViewCell.swift in Sources */,
+				48BF8C0A1EE214A00021B8F6 /* UILabel+Chameleon.m in Sources */,
+				487489261F153362005688F1 /* Ticket.swift in Sources */,
+				48BF8BD81EE19BD90021B8F6 /* Eticket_Persib.xcdatamodeld in Sources */,
+				486629FE1EE8807E004CE257 /* EPScheduleViewController.swift in Sources */,
+				489AEE981F3C8C9300E4B4DF /* EticketFirstNavigationViewController.swift in Sources */,
+				48D73E6E1EEC4426005F9B3E /* EPHistoryViewController.swift in Sources */,
+				4834F1DC1F39B5EB006E719C /* EticketHomeContainerViewController.swift in Sources */,
+				489AEE921F3C598800E4B4DF /* MFSideMenuShadow.m in Sources */,
+				4834F1DE1F39B8D6006E719C /* EticketHomeViewController.swift in Sources */,
+				48BF8C071EE214A00021B8F6 /* UIColor+Chameleon.m in Sources */,
+				486625551F18F882003DFA28 /* History.swift in Sources */,
+				487108881F43136B0068C7CF /* InfoStadionViewController.swift in Sources */,
+				489AEE9E1F3C991E00E4B4DF /* MenuViewController.swift in Sources */,
+				4834F1D81F39B3ED006E719C /* CAPSPageMenu.swift in Sources */,
+				4834F1E01F39D794006E719C /* EticketNavigationViewController.swift in Sources */,
+				489AEE9A1F3C8CAE00E4B4DF /* ContainerViewController.swift in Sources */,
+				48D73E701EEC443F005F9B3E /* EPHistoryTableViewCell.swift in Sources */,
+				489AEE931F3C598800E4B4DF /* UIViewController+MFSideMenuAdditions.m in Sources */,
+				48E97F591F14ACF40043C87D /* TPKeyboardAvoidingTableView.m in Sources */,
+				48BF8BD21EE19BD90021B8F6 /* ViewController.swift in Sources */,
+				48662A081EE893DB004CE257 /* EPDetailScheduleViewController.swift in Sources */,
+				487108821F4217540068C7CF /* PopupDetailHistoryViewController.swift in Sources */,
+				48EAF1711F138D21004BB130 /* WebService.swift in Sources */,
+				48CB4A4B1F1740AC00D66EAA /* UserData.swift in Sources */,
+				48E97F581F14ACF40043C87D /* TPKeyboardAvoidingScrollView.m in Sources */,
+				48BF8C051EE214A00021B8F6 /* UIAppearance+Swift.m in Sources */,
+				48E97F5C1F14B5290043C87D /* Schedule.swift in Sources */,
+				48BF8C0D1EE214A00021B8F6 /* UIViewController+Chameleon.m in Sources */,
+				48BF8C091EE214A00021B8F6 /* UIImage+ChameleonPrivate.m in Sources */,
+				48BF8BD01EE19BD90021B8F6 /* AppDelegate.swift in Sources */,
+				48BF8C061EE214A00021B8F6 /* UIButton+Chameleon.m in Sources */,
+				489AEE9D1F3C991E00E4B4DF /* BaseViewController.swift in Sources */,
+				48BF8C041EE214A00021B8F6 /* NSArray+Chameleon.m in Sources */,
+				48E97F5A1F14ACF40043C87D /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				489F106C1F45D092003E9AAB /* InfoPersibViewController.swift in Sources */,
+				485B6AF31EE68EB20080B9FA /* EPListNewsTableViewCell.swift in Sources */,
+				48662A001EE88099004CE257 /* EPScheduleTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		48BF8BD31EE19BD90021B8F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48BF8BD41EE19BD90021B8F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48BF8BDB1EE19BD90021B8F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48BF8BDC1EE19BD90021B8F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48BF8BDF1EE19BD90021B8F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48BF8BE01EE19BD90021B8F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48BF8BE21EE19BD90021B8F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6048EC150023CDF0E66CE11 /* Pods-Eticket Persib.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZQEDLFR82W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/STPopup",
+				);
+				INFOPLIST_FILE = "Eticket Persib/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.komprehensif.Eticket-Persib";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Eticket Persib/Eticket Persib-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		48BF8BE31EE19BD90021B8F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 963533FDA55F24CF20A7585B /* Pods-Eticket Persib.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZQEDLFR82W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/STPopup",
+				);
+				INFOPLIST_FILE = "Eticket Persib/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.komprehensif.Eticket-Persib";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Eticket Persib/Eticket Persib-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48BF8BC71EE19BD90021B8F6 /* Build configuration list for PBXProject "Eticket Persib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48BF8BDF1EE19BD90021B8F6 /* Debug */,
+				48BF8BE01EE19BD90021B8F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48BF8BE11EE19BD90021B8F6 /* Build configuration list for PBXNativeTarget "Eticket Persib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48BF8BE21EE19BD90021B8F6 /* Debug */,
+				48BF8BE31EE19BD90021B8F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		48BF8BD61EE19BD90021B8F6 /* Eticket_Persib.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				48BF8BD71EE19BD90021B8F6 /* Eticket_Persib.xcdatamodel */,
+			);
+			currentVersion = 48BF8BD71EE19BD90021B8F6 /* Eticket_Persib.xcdatamodel */;
+			path = Eticket_Persib.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 48BF8BC41EE19BD90021B8F6 /* Project object */;
+}

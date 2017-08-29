@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (4.5.0)
+  - PKHUD (4.2.2)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - STPopup (1.8.2)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - PKHUD (~> 4.0)
+  - SDWebImage (~> 3.7)
+  - STPopup
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  PKHUD: 9a3599e04d57676ec14746c40e423a52fb6588c0
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  STPopup: b69b3e7484ef7d2baec5f9ab2939f8a7bcdfe218
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 2af9b6c021cfc6b8b01d538af55e357af9150f65
+
+COCOAPODS: 1.2.1
